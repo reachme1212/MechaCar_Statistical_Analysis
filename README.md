@@ -4,6 +4,7 @@
 
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on the data analytics team to review the production data for insights that may help the manufacturing team.
 
+**Deliverable 1**
 **Hypothesis:**
 
 The null hypothesis is that there is zero percent correlation or relationship between the dependent variable(mpg) and the independent variable(s) and the alternative hypothesis is there is more than zero percent correlation or relationship between the dependant and independant variables.
@@ -26,6 +27,20 @@ From the equation of the linear model, we see that all coefficients of our predi
 **3.Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 Our R squared value is 71% with all the variables, this mean this model predicts with 71% accuracy, I would say this should be improved , we do need a decent 95% to be really confident on the model and carry forward with the production.
+
+**Deliverable 2**
+
+The MechaCar “Suspension_Coil.csv” dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.Total summary PSI variance shows 62.29 , however when we see the lot summary lot3 has a higher than normal variance at 170.28.
+
+Box plot also shows Lot3 has too many outliers 
+
+![Total summary](images/tot_summary.PNG)
+
+![Lot summary](images/lot_summary.PNG)
+
+![boxplot](images/psi_boxplot.PNG)
 
 
 

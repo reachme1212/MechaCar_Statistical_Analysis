@@ -41,3 +41,4 @@ cor(mecha_mpg$spoiler_angle,mecha_mpg$mpg)
 cor(mecha_mpg$vehicle_length,mecha_mpg$mpg)
 cor(mecha_mpg$ground_clearance,mecha_mpg$mpg)
 
+
