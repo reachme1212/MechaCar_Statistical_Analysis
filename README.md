@@ -5,6 +5,7 @@
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on the data analytics team to review the production data for insights that may help the manufacturing team.
 
 **Deliverable 1**
+
 **Hypothesis:**
 
 The null hypothesis is that there is zero percent correlation or relationship between the dependent variable(mpg) and the independent variable(s) and the alternative hypothesis is there is more than zero percent correlation or relationship between the dependant and independant variables.
@@ -44,6 +45,16 @@ Box plot also shows Lot3 has too many outliers
 
 
 
+**Deliverable 3**
 
+Performing t.test() function to determine if the PSI across all manufacturing lots , and they are statistically different from the population mean of 1,500 pounds per square inch.
 
+For lot 1 and lot 2 and lot 3 the p value are 1, 0.60 , 0.04 respectively, The smaller the p-value, the stronger the evidence that you should reject the null hypothesis. A p-value less than 0.05 (typically ≤ 0.05) is statistically significant only lot 3 fits that definition.
 
+![test population](images/ttest_pop.PNG)
+
+![test lot 1](images/ttest_lot1.PNG)
+
+![test lot 2](images/ttest_lot2.PNG)
+
+![test lot 3](images/ttest_lot3.PNG)
