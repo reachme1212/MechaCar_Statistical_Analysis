@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+MechaCar_mpg.csv
+Suspension_Coil.csv
 __pycache__/
 *.py[cod]
 *$py.class
