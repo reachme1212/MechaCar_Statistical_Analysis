@@ -58,3 +58,13 @@ For lot 1 and lot 2 and lot 3 the p value are 1, 0.60 , 0.04 respectively, The s
 ![test lot 2](images/ttest_lot2.PNG)
 
 ![test lot 3](images/ttest_lot3.PNG)
+
+## Study Design: MechaCar vs Competition.
+
+We do not have exact data to test the performance of the competition in this analysis, however its standard practice to do a comparative study before releasing a new product in any industry, in this case a car. Cost and/or fuel efficiency are two good variables to start the analysis.
+
+Null Hyothesis: There is no difference between average fuel efficiency between MecharCar and Competition vehicles, for example let’s assume average fuel efficiency of Mechacar and its competition is same 25 MPG.
+
+Alternative Hypothesis: There is difference in fuel efficiency between MecharCar and Competition vehicles, for example average fuel efficiency of MechaCar and its competition is not equal to 25 MPG.
+
+Two sample t-test is a good starting point to see if there is any difference in both brands fuel efficiency. we do need a decent sample data normally distributed for both MechaCar and its competition.
